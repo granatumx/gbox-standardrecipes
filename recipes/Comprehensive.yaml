@@ -40,3 +40,6 @@ steps:
   -
     gbox: "FGSEA-{VER}"
     initialState: null
+  -
+    gbox: "ScanpyPseudotime-{VER}"
+    initialState: null
