@@ -11,19 +11,22 @@ steps:
     gbox: "UploadFiles-{VER}"
     initialState: null
   -
-    gbox: "ScanpyGeneFiltering-{VER}"
-    initialState: null
-  -
-    gbox: "LogTransformation-{VER}"
-    initialState: null
-  -
     gbox: "DeepImpute-2.0.0"
     initialState: null
   -
     gbox: "ScanpyNormalization-{VER}"
     initialState: null
   -
+    gbox: "ScanpyGeneFiltering-{VER}"
+    initialState: null
+  -
+    gbox: "LogTransformation-{VER}"
+    initialState: null
+  -
     gbox: "ScanpyPCA-{VER}"
+    initialState: null
+  -
+    gbox: "ScanpyTsne-{VER}"
     initialState: null
   -
     gbox: "UMAP-{VER}"
@@ -38,7 +41,7 @@ steps:
     gbox: "ScanpyMarkerGenes-{VER}"
     initialState: null
   -
-    gbox: "FGSEA-{VER}"
+    gbox: "BroadGSEA-{VER}"
     initialState: null
   -
     gbox: "ScanpyPseudotime-{VER}"
